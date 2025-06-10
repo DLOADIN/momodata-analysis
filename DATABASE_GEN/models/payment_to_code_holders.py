@@ -11,8 +11,8 @@ class PaymentToCode(Base):
 
     # date in millliseconds will serve as our unique id
     id = Column(Integer, primary_key=True, nullable=False)
-    first_name = Column(String(60), nullable=False)
-    last_name = Column(String(60), nullable=False)
+    first_name = Column(String(80), nullable=False)
+    last_name = Column(String(80), nullable=False)
     code = Column(Integer, nullable=False)
     amount = Column(Integer, nullable=False)
     date = Column(DateTime, nullable=False)
