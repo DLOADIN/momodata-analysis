@@ -8,7 +8,7 @@ class PaymentBase:
 
     id = Column(Integer, primary_key=True, nullable=False)
     amount = Column(Integer, nullable=False)
-    service_provider = Column(String(60), default="MTN", nullable=False)
+    service_provider = Column(String(80), default="MTN", nullable=False)
     fee = Column(Integer, default=0, nullable=False)
     date = Column(DateTime, nullable=False)
 
