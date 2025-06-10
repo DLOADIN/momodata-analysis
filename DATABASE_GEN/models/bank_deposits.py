@@ -17,3 +17,4 @@ class BankDeposits(Base):
         self.id = id
         self.amount = amount
         self.date = date
+        
