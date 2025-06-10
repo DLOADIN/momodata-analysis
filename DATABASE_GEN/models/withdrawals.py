@@ -9,7 +9,7 @@ class Withdrawals(Base):
 
     __tablename__ = "withdrawals"
     id = Column(Integer, primary_key=True, nullable=False)
-    agent = Column(String(60), nullable=False)
+    agent = Column(String(80), nullable=False)
     agent_tel = Column(Integer, nullable=False)
     amount = Column(Integer, nullable=False)
     fee = Column(Integer, nullable=False)

@@ -10,8 +10,8 @@ class TransferToMomo(Base):
     __tablename__ = "transfers_to_momo"
 
     id = Column(Integer, primary_key=True, nullable=False)
-    first_name = Column(String(60), nullable=False)
-    last_name = Column(String(60), nullable=False)
+    first_name = Column(String(80), nullable=False)
+    last_name = Column(String(80), nullable=False)
     tel = Column(Integer, nullable=False)
     amount = Column(Integer, nullable=False)
     fee = Column(Integer, nullable=True)
