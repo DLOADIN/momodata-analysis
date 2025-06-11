@@ -32,7 +32,7 @@ Ensure you have the following installed on your system:
 ## Installation & Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/DLOADIN/momo-Analysis.git
+git clone https://github.com/DLOADIN/momodata-Analysis.git
 cd momo-Analysis
 ```
 
@@ -134,7 +134,7 @@ Go to:
 
 ## Documentation & References
 
-- [Project Repository](https://github.com/DLOADIN/momo-analysis)
+- [Project Repository](https://github.com/DLOADIN/momodata-analysis)
 - [Python XML Parsing Documentation](https://docs.python.org/3/library/xml.etree.elementtree.html)
 - [SQLite Documentation](https://www.sqlite.org/docs.html)
 - [Django Documentation](https://docs.djangoproject.com/)
