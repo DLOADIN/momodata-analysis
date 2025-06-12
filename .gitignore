@@ -1,1 +1,4 @@
 /gitoperations.sh
+./touch.sh
+./upload.sh
+__pycache__/
