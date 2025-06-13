@@ -1,1 +1,0 @@
-STATIC FILE that contains js file and momo css

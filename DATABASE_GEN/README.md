@@ -70,4 +70,9 @@ Ensure you have the following installed on your system:
 - Duplicate data handling: The script prevents inserting duplicate records using SQLAlchemy’s `IntegrityError` handling.
 - The `convert_to_date` function helps convert dates into a standardized format.
 
+## License
+No licencse
+
+## Author
+Aimable Nkurikiyimana
 
